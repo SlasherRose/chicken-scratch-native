@@ -1,0 +1,16 @@
+{
+	"compilerOptions": {
+		"jsx": "react",
+		"outDir": "./dist",
+		"declaration": true,
+		"esModuleInterop": true,
+		"module": "ESNext",
+		"target": "es5",
+
+		"moduleResolution": "node", // resolves ts build error " Did you mean to set the 'moduleResolution' option to 'nodenext'"
+		"types": ["node"],
+		"skipLibCheck": true // prevents checking for conflicts between node_modules and the types folder
+	},
+	"include": ["src"],
+	"exclude": ["node_modules", "lib"]
+}
